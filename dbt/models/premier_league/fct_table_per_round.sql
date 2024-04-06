@@ -13,7 +13,7 @@ WITH match_data AS (
              WHEN HomeTeam_goals > AwayTeam_goals THEN 0 
              WHEN HomeTeam_goals = AwayTeam_goals THEN 1
         END AwayTeam_points_gained
-    FROM massive-oasis-412719.final_project.all_match_results
+    FROM {{ ref('dim_match_data') }}
     ORDER BY 1
 )
 
