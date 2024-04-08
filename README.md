@@ -8,6 +8,7 @@
 ## Premier League
 
 Premier League Data (Season 2021-2022) consist of three data sources (players_data, match_reults, final_table)
+Dataset can be found [here](https://www.kaggle.com/datasets/azminetoushikwasi/epl-21-22-matches-players/data)
 
 The goal of this project is to design and implement a data engineering pipeline tailored for football analytics. This pipeline should efficiently handle both batch and streaming data processing, ensuring data quality. Additionally, it should support the creation of analytics-ready datasets and facilitate insights generation.
 
