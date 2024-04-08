@@ -7,7 +7,7 @@
 
 ## Premier League
 
-Premier League Data consist of three data sources (players_data, match_reults, final_table)
+Premier League Data (Season 2021-2022) consist of three data sources (players_data, match_reults, final_table)
 
 The goal of this project is to design and implement a data engineering pipeline tailored for football analytics. This pipeline should efficiently handle both batch and streaming data processing, ensuring data quality. Additionally, it should support the creation of analytics-ready datasets and facilitate insights generation.
 
@@ -112,4 +112,6 @@ In the current dashboard we can also monitor some core football KPIs such as:
 - Champion
 - Golden Boot Winner
 - Best Attacking Team
-- Best Defensive Team  
+- Best Defensive Team
+
+among with the Final Table of the 2021-2022 Premier's League Ranking
