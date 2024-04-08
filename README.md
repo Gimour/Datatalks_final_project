@@ -108,6 +108,8 @@ After running our script, we can go back to the BigQuery table we defined in the
 For the visualization part of the project, we needed a tool capable of handling real-time data updates. For this task, we used [Grafana Cloud](https://grafana.com/products/cloud/) which offers a free trial.
 [This](https://mouratosg.grafana.net/public-dashboards/e53b21ecfa7941b7bc1b8a717a28f4fe) is a sample dashboard we can build in grafana to monitor the match streams, after triggering our stream producer in Mage:
 
+![](https://github.com/Gimour/Datatalks_final_project/blob/main/screenshots/stats.gif)
+
 In the current dashboard we can also monitor some core football KPIs such as: 
 - Champion
 - Golden Boot Winner
